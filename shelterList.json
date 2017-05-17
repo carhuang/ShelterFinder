@@ -508,7 +508,7 @@
 			ageRange: "19+",
 			gender: "Female Adults",
 			intakeInfo: "6:00PM to 9:00AM Weekdays; 24 hrs Weekends",
-			accessibility: git ["wheel chairs"],
+			accessibility: ["wheel chairs"],
 		}
 	]
 }
