@@ -8,7 +8,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "6PM-11PM",
-			accessibility: "wheel chairs, pets, shopping carts",
+			accessibility: ["wheel chairs", "pets", "shopping carts"],
 		},
 		{
 			name: "Riverside Shelter",
@@ -18,7 +18,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs, pets, shopping carts",
+			accessibility: ["wheel chairs", "pets", "shopping carts"],
 		},
 		{
 			name: "Brigadier Arthur Cartmell House",
@@ -28,7 +28,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "pets, shopping carts",
+			accessibility: ["pets", "shopping carts"],
 		},
 		{
 			name: "Thunderbird Emergency Shelter",
@@ -38,7 +38,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "8AM-12AM",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Gateway of Hope - Emergency Shelter",
@@ -48,7 +48,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs",
+			accessibility: ["wheel chairs"],
 		},
 		{
 			name: "Salvation Army Ridge Meadows Ministries",
@@ -58,7 +58,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "pets",
+			accessibility: ["pets"],
 		},
 		{
 			name: "Maple Ridge Temporary Shelter",
@@ -68,7 +68,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs, pets, shopping carts",
+			accessibility: ["wheel chairs", "pets", "shopping carts"],
 		},
 		{
 			name: "Haven in the Hollow",
@@ -78,7 +78,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "North Shore Shelter",
@@ -88,7 +88,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs, pets",
+			accessibility: ["wheel chairs", "pets"],
 		},
 		{
 			name: "Boulevard Temporary Shelter",
@@ -98,7 +98,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs, pets",
+			accessibility: ["wheel chairs", "pets"],
 		},
 		{
 			name: "Cloverdale Shelter",
@@ -108,7 +108,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "pets",
+			accessibility: ["pets"],
 		},
 		{
 			name: "Gateway Shelter (The Front Room)",
@@ -118,7 +118,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs, pets",
+			accessibility: ["wheel chairs, pets"],
 		},
 		{
 			name: "Guildford Shelter",
@@ -128,7 +128,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs, pets",
+			accessibility: ["wheel chairs", "pets"],
 		},
 		{
 			name: "Hyland House",
@@ -138,7 +138,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs",
+			accessibility: ["wheel chairs"],
 		},
 		{
 			name: "Al Mitchell Place (Lookout Downtown)",
@@ -148,7 +148,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs, pets",
+			accessibility: ["wheel chairs", "pets"],
 		},
 		{
 			name: "First United Church Shelter",
@@ -158,7 +158,7 @@
 			ageRange: "25+",
 			gender: "All",
 			intakeInfo: "8am-4pm",
-			accessibility: "wheel chairs, pets, shopping carts",
+			accessibility: ["wheel chairs", "pets", "shopping carts"],
 		},
 		{
 			name: "Triage Emergency Shelter",
@@ -168,7 +168,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs, pets",
+			accessibility: ["wheel chairs", "pets"],
 		},
 		{
 			name: "Yukon Shelter",
@@ -178,7 +178,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs, pets",
+			accessibility: ["wheel chairs", "pets"],
 		},
 		{
 			name: "Elizabeth Gurney House",
@@ -188,7 +188,7 @@
 			ageRange: "19+",
 			gender: "Single Female or Female w kids",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Fraserside Emergency Family Shelter",
@@ -198,7 +198,7 @@
 			ageRange: "19+",
 			gender: "Single Female or M/F Parents",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Cynthia's Place - Elizabeth Fry Society",
@@ -208,7 +208,7 @@
 			ageRange: "19+",
 			gender: "Single Females",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Fraserside Emergency Family Shelter",
@@ -218,7 +218,7 @@
 			ageRange: "19+",
 			gender: "Single Female or M/F Parents",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Sheena's Place - Elizabeth Fry Society",
@@ -228,7 +228,7 @@
 			ageRange: "19+",
 			gender: "Single Female or M/F Parents",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Belkin House - Women and Children’s Shelter",
@@ -238,7 +238,7 @@
 			ageRange: "19+",
 			gender: "Single Females",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs",
+			accessibility: ["wheel chairs"],
 		},
 		{
 			name: "Springhouse",
@@ -248,7 +248,7 @@
 			ageRange: "19+",
 			gender: "Single Female or Female w kids",
 			intakeInfo: "24hr w/ children",
-			accessibility: "wheel chairs, pets",
+			accessibility: ["wheel chairs", "pets"],
 		},
 		{
 			name: "Vi Fineday Family Shelter Society",
@@ -258,7 +258,7 @@
 			ageRange: "19+",
 			gender: "Single Female, M/F Parents",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Russell Housing Centre",
@@ -268,7 +268,7 @@
 			ageRange: "19+",
 			gender: "Male",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Stevenson House for Men",
@@ -278,7 +278,7 @@
 			ageRange: "19+",
 			gender: "Male",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Richmond House",
@@ -288,7 +288,7 @@
 			ageRange: "19+",
 			gender: "Male",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "The Beacon",
@@ -298,7 +298,7 @@
 			ageRange: "19+",
 			gender: "Male",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs",
+			accessibility: ["wheel chairs"],
 		},
 		{
 			name: "Belkin House - Men's Shelter",
@@ -308,7 +308,7 @@
 			ageRange: "19+",
 			gender: "Male",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Cyrus Centre Abbotsford",
@@ -318,7 +318,7 @@
 			ageRange: "12-18",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Cyrus Centre Chilliwack",
@@ -328,7 +328,7 @@
 			ageRange: "12-18",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs",
+			accessibility: ["wheel chairs"],
 		},
 		{
 			name: "North Shore Youth Safe House",
@@ -338,7 +338,7 @@
 			ageRange: "14-18",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "All Nations Youth Safe House - Kla-how-eya",
@@ -348,7 +348,7 @@
 			ageRange: "16-18",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs",
+			accessibility: ["wheel chairs"],
 		},
 		{
 			name: "Aboriginal Youth Safehouse (ASH)",
@@ -358,7 +358,7 @@
 			ageRange: "16-18",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Covenant House - Male Youth",
@@ -368,7 +368,7 @@
 			ageRange: "16-24",
 			gender: "Male Youth",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs",
+			accessibility: ["wheel chairs"],
 		},
 		{
 			name: "Covenant House - Female Youth",
@@ -378,7 +378,7 @@
 			ageRange: "16-24",
 			gender: "Female Youth",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs",
+			accessibility: ["wheel chairs"],
 		},
 		{
 			name: "FSGV Safe House (Directions)",
@@ -388,7 +388,7 @@
 			ageRange: "16-18",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Marc's Place",
@@ -398,7 +398,7 @@
 			ageRange: "13-15",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Brigadier Arthur Cartmell House",
@@ -408,7 +408,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "Line up: 9pm-7am",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Parkway Shelter",
@@ -418,7 +418,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "24hr",
-			accessibility: "wheel chairs, pets",
+			accessibility: ["wheel chairs", "pets"],
 		},
 		{
 			name: "Surrey Urban Mission Temporary Shelter",
@@ -428,7 +428,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "Intake 7pm; curfew 11pm",
-			accessibility: "wheel chairs, pets",
+			accessibility: ["wheel chairs", "pets"],
 		},
 		{
 			name: "Aboriginal Shelter",
@@ -438,7 +438,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "Intake 4:30PM; line-up 2:00-3:00PM",
-			accessibility: "wheel chairs, pets, shopping carts",
+			accessibility: ["wheel chairs", "pets", "shopping carts"],
 		},
 		{
 			name: "Brigadier Arthur Cartmell House",
@@ -448,7 +448,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "Line up: 9pm-7am",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "Catholic Charities Men's Hostel",
@@ -458,7 +458,7 @@
 			ageRange: "19+",
 			gender: "Male",
 			intakeInfo: "Intake 4:00PM; curfew 11:00PM",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "The Crosswalk",
@@ -468,7 +468,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "9:30PM to 2:00AM; line- up starts 9:00PM",
-			accessibility: "wheel chairs",
+			accessibility: ["wheel chairs"],
 		},
 		{
 			name: "New Fountain Shelter",
@@ -478,7 +478,7 @@
 			ageRange: "25+",
 			gender: "All",
 			intakeInfo: "Intake at 7:00PM; beds assigned at 10:00PM",
-			accessibility: "pets, shopping carts",
+			accessibility: ["pets", "shopping carts"],
 		},
 		{
 			name: "Temporary shelter - First Baptist",
@@ -488,7 +488,7 @@
 			ageRange: "All, priority to under 19",
 			gender: "All",
 			intakeInfo: "Tuesdays Only. Intake at 5:00PM",
-			accessibility: "",
+			accessibility: [],
 		},
 		{
 			name: "UGM Emergency Shelter for Men",
@@ -498,7 +498,7 @@
 			ageRange: "19+",
 			gender: "Male Adults",
 			intakeInfo: "Intake at 5:00PM; opens at 9:00PM. No intake after 2:00AM",
-			accessibility: "wheel chairs",
+			accessibility: ["wheel chairs"],
 		},
 		{
 			name: "Women's Emergency Drop-in Night Shelter",
@@ -508,7 +508,7 @@
 			ageRange: "19+",
 			gender: "Female Adults",
 			intakeInfo: "6:00PM to 9:00AM Weekdays; 24 hrs Weekends",
-			accessibility: "wheel chairs",
+			accessibility: git ["wheel chairs"],
 		}
 	]
 }
