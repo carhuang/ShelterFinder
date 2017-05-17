@@ -8,7 +8,7 @@
 			ageRange: "19+",
 			gender: "All",
 			intakeInfo: "6PM-11PM",
-			accessibility: "wheel chairs, pets, shopping carts",
+			accessibility: {"wheel chairs", "pets", "shopping carts"}
 		},
 		{
 			name: "Riverside Shelter",
