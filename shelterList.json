@@ -174,7 +174,7 @@
 			"name": "Yukon Shelter",
 			"address": "2088 Yukon Street, Vancouver",
 			"phone": "604-264-1680 ext. 1",
-			"bed": "0",
+			"bed": "71",
 			"ageRange": "19+",
 			"gender": "All",
 			"intakeInfo": "24hr",
@@ -505,7 +505,7 @@
 			"address": "412 East Cordova Street, Vancouver",
 			"phone": "604-715-8480",
 			"bed": "50F",
-			"ageRange": "19+",
+			"ageRange": "19+",a
 			"gender": "Female Adults",
 			"intakeInfo": "6:00PM to 9:00AM Weekdays; 24 hrs Weekends",
 			"accessibility": ["wheel chairs"]
