@@ -3,14 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Shelter Finder</title>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 <body>
-    <div id="map"></div>
+<div class="container-fluid">
+    <div class="row">
+        <h1>Shelter Finder</h1>
+    </div>
+    <div class="row">
+        <!-- MAP -->
+        <div class=".col-md-8" id="map"></div>
+
+        <!-- FILTER FORM -->
+        <div class=".col-md-4" id="filter">
+            <form id="form">
+                <label for="age">Age: </label>
+                <input type="number" id="age" name="age" min="1" max="100">
+
+
+            </form>
+        </div>
+    </div>
+
     <script>
         var map;
         function initMap() {
@@ -20,11 +37,21 @@
                 center: vancouver
             };
             map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+            // copied from https://stackoverflow.com/questions/17382128/google-maps-api-center-map-on-clients-current-location
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                    map.setCenter(initialLocation);
+                });
+            }
         }
     </script>
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEwLxAyn0eSuaGlLZPn2d6DJmchHTIcps&callback=initMap">
     </script>
+</div>
+
 
 </body>
 </html>
