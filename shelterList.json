@@ -3,6 +3,8 @@
 		{
 			"name":  "Centre of Hope - Abbotsford Shelter",
 			"address": "34081 Gladys Avenue, Abbotsford",
+			"lat": 49.0435832,
+			"lng": -122.2785304,
 			"phone": "604-852-9305 ext.108",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -14,7 +16,9 @@
 		{
 			"name": "Riverside Shelter",
 			"address": "1640 Riverside Road, Abbotsford",
-			"phone": "604-776-2424",x
+			"lat": 49.032174,
+			"lng": -122.271812,
+			"phone": "604-776-2424",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
@@ -25,6 +29,8 @@
 		{
 			"name": "Brigadier Arthur Cartmell House",
 			"address": "45746 Yale Road, Chilliwack",
+			"lat": 49.1600307,
+			"lng": -121.958183,
 			"phone": "604-474-0435",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -36,6 +42,8 @@
 		{
 			"name": "Thunderbird Emergency Shelter",
 			"address": "22188 Lougheed Highway, Maple Ridge",
+			"lat": 49.216505,
+			"lng": -122.607613,
 			"phone": "604-869-1880",
 			"bed": {"All gender adults":0, "Male adults":2, "Female adults":2,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -47,6 +55,8 @@
 		{
 			"name": "Gateway of Hope - Emergency Shelter",
 			"address": "5787 Langley Bypass, Langley",
+			"lat": 49.107882,
+			"lng": -122.643068,
 			"phone": "604-514-7375",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -58,6 +68,8 @@
 		{
 			"name": "Salvation Army Ridge Meadows Ministries",
 			"address": "22188 Lougheed Highway, Maple Ridge",
+			"lat": 49.216505,
+			"lng": -122.607613,
 			"phone": "604-463-8296 ext. 0",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -69,6 +81,8 @@
 		{
 			"name": "Maple Ridge Temporary Shelter",
 			"address": "22239 Lougheed Highway, Maple Ridge",
+			"lat": 49.217101,
+			"lng": -122.606188,
 			"phone": "604-466-8338",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -80,6 +94,8 @@
 		{
 			"name": "Haven in the Hollow",
 			"address": "32646 Logan Avenue, Mission",
+			"lat": 49.1334375,
+			"lng": -122.3199025,
 			"phone": "604-820-9008",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -91,9 +107,11 @@
 		{
 			"name": "North Shore Shelter",
 			"address": "705 West 2nd Street, North Vancouver",
+			"lat": 49.3187845,
+			"lng": -123.092048,
 			"phone": "604-982-9126 ext. 0",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
-				"All gender youth": 0, "Male youth":0, "Female youth":0},
+				"All gender youth": 0, "Male youth":0, "Female youth":0},  //45
 			"ageRange": "19+",
 			"gender": "All",
 			"intakeInfo": "24hr",
@@ -102,30 +120,39 @@
 		{
 			"name": "Boulevard Temporary Shelter",
 			"address": "10677 Whalley Boulevard",
+			"lat": 49.196528,
+			"lng": -122.842664,
 			"phone": "604-588-1061",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":30, "Female adults":10,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "All",
-			"intakeInfo": "24hr",
-			"accessibility": ["wheel chairs", "pets"]
+			"intakeInfo": "24hr",   //11pm curfew
+			"accessibility": ["wheel chairs", "pets"],
+			"facilities": ["meals"]
 		},
 		{
-			"name": "Cloverdale Shelter",
+			"name": "Hyland House Cloverdale",
 			"address": "17910 Colebrook Road, Surrey",
+			"lat": 49.098644,
+			"lng": -122.726597,
 			"phone": "604-574-4341",
 			"bed": {"All gender adults":0, "Male adults":1, "Female adults":0,
-				"All gender youth": 0, "Male youth":0, "Female youth":0},
+				"All gender youth": 0, "Male youth":0, "Female youth":0}, //10
 			"ageRange": "19+",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": ["pets"]
+			"accessibility": ["pets"],
+			"facilities": ["laundry", "showers", "meals"],
+			"memo": "Single and double rooms."
 		},
 		{
 			"name": "Gateway Shelter (The Front Room)",
 			"address": "10667 135A Street, Surrey",
+			"lat": 49.1964258,
+			"lng": -122.8473055,
 			"phone": "604-589-7777",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":32, "Female adults":8,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "All",
@@ -134,64 +161,82 @@
 		},
 		{
 			"name": "Guildford Shelter",
-			"address": "10667 135A Street, Surrey",
-			"phone": "604-589-7777",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"address": "14717 104th Avenue, Surrey",
+			"lat": 49.1916824,
+			"lng": -122.8143452,
+			"phone": "778-293-0889",
+			"bed": {"All gender adults":0, "Male adults":30, "Female adults":8,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": ["wheel chairs", "pets"]
+			"accessibility": ["wheel chairs", "pets"],
+			"facilities": ["meals", "showers", "lockers"]
 		},
 		{
-			"name": "Hyland House",
-			"address": "6595 King George Boulevard, Surrey (Newton)",
+			"name": "Hyland House Newton",
+			"address": "6595 King George Boulevard, Surrey",
+			"lat": 49.1226814,
+			"lng": -122.846062,
 			"phone": "604-599-8900",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":35, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": ["wheel chairs"]
+			"accessibility": ["wheel chairs"],
+			"facilities": ["laundry", "showers", "meals"],
+			"memo": "Single rooms, plus 20 self-contained transitional houses for longer-stays."
 		},
 		{
 			"name": "Al Mitchell Place (Lookout Downtown)",
 			"address": "346 Alexander Street, Vancouver",
-			"phone": "604-681-9126 ext. 1",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"lat": 49.2837813,
+			"lng": -123.0962272,
+			"phone": "604-681-9126",
+			"bed": {"All gender adults":46, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": ["wheel chairs", "pets"]
+			"accessibility": ["wheel chairs", "pets"],
+			"facilities": ["meals"]
 		},
 		{
 			"name": "First United Church Shelter",
 			"address": "320 East Hastings Street, Vancouver",
+			"lat": 49.2810139,
+			"lng": -123.0971585,
 			"phone": "604-839-6880",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":40, "Female adults":20,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "25+",
 			"gender": "All",
 			"intakeInfo": "8am-4pm",
-			"accessibility": ["wheel chairs", "pets", "shopping carts"]
+			"accessibility": ["wheel chairs", "pets", "shopping carts"],
+			"facilities": ["meals", "showers"]
 		},
 		{
 			"name": "Triage Emergency Shelter",
 			"address": "707 Powell Street, Vancouver",
+			"lat": 49.283257,
+			"lng": -123.0891407,
 			"phone": "604-254-3700",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":19, "Female adults":9,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": ["wheel chairs", "pets"]
+			"accessibility": ["wheel chairs", "pets"],
+			"facilities": ["meals"]
 		},
 		{
 			"name": "Yukon Shelter",
 			"address": "2088 Yukon Street, Vancouver",
+			"lat": 49.2668729,
+			"lng": -123.1123904,
 			"phone": "604-264-1680 ext. 1",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":71, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "All",
@@ -201,248 +246,288 @@
 		{
 			"name": "Elizabeth Gurney House",
 			"address": "address confidential",
+			"lat": 49.227692,
+			"lng": -122.889687,
 			"phone": "604-524-0710",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":0, "Female adults":12,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Single Female or Female w kids",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["meals", "laundry"]
 		},
 		{
 			"name": "Fraserside Emergency Family Shelter",
-			"address": "address confidential",
+			"address": "519 7th Street, New Westminster",
+			"lat": 49.2119122,
+			"lng": -122.9209853,
 			"phone": "604-525-3929",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":12, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Single Female or M/F Parents",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["meals", "clothing"]
 		},
 		{
 			"name": "Cynthia's Place - Elizabeth Fry Society",
 			"address": "address confidential",
+			"lat": 49.126026,
+			"lng":-122.821007,
 			"phone": "604-582-2456",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":0, "Female adults":14,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Single Females",
 			"intakeInfo": "24hr",
-			"accessibility": []
-		},
-		{
-			"name": "Fraserside Emergency Family Shelter",
-			"address": "address confidential",
-			"phone": "604-525-3929",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
-				"All gender youth": 0, "Male youth":0, "Female youth":0},
-			"ageRange": "19+",
-			"gender": "Single Female or M/F Parents",
-			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": []
 		},
 		{
 			"name": "Sheena's Place - Elizabeth Fry Society",
 			"address": "address confidential",
+			"lat": 49.126062,
+			"lng": -122.821018,
 			"phone": "604-581-1538",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":0, "Female adults":12,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
-			"gender": "Single Female or M/F Parents",
+			"gender": "Single Female or Female w kids",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["meals", "laundry"]
 		},
 		{
 			"name": "Belkin House - Women and Children’s Shelter",
 			"address": "555 Homer Street, Vancouver",
+			"lat": 49.2824264,
+			"lng": -123.1129496,
 			"phone": "604-606-0403",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":0, "Female adults":29,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Single Females",
-			"intakeInfo": "24hr",
-			"accessibility": ["wheel chairs"]
+			"intakeInfo": "24hr",     //11pm curfew
+			"accessibility": ["wheel chairs"],
+			"facilities": ["meals"]
 		},
 		{
 			"name": "Springhouse",
 			"address": "address confidential",
+			"lat": 49.248857,
+			"lng": -123.121402,
 			"phone": "604-606-0412",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":0, "Female adults":32,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Single Female or Female w kids",
 			"intakeInfo": "24hr w/ children",
-			"accessibility": ["wheel chairs", "pets"]
+			"accessibility": ["wheel chairs", "pets"],
+			"facilities": ["meals", "laundry"]
 		},
 		{
 			"name": "Vi Fineday Family Shelter Society",
 			"address": "address confidential",
+			"lat": 49.248857,
+			"lng": -123.121402,
 			"phone": "604-736-2423",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":0, "Female adults":18,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
-			"gender": "Single Female, M/F Parents",
+			"gender": "Single Female, Single Parents w kids, Couples w/o kids",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["meals", "internet", "lockers"]
 		},
 		{
 			"name": "Russell Housing Centre",
 			"address": "740 Carnarvon Street, New Westminster",
+			"lat": 49.2023742,
+			"lng": -122.911578,
 			"phone": "604-529-9126 ext. 101",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":15, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Male",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["showers", "laundry", "meals"]
 		},
 		{
 			"name": "Stevenson House for Men",
 			"address": "32 Elliot Street, New Westminster",
+			"lat": 49.207009,
+			"lng": -122.9025129,
 			"phone": "604-526-4783",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":14, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Male",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["meals"]
 		},
 		{
 			"name": "Richmond House",
 			"address": "3111 Shell Road, Richmond",
+			"lat": 49.1911623,
+			"lng": -123.1029828,
 			"phone": "604-276-2490",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":10, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Male",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["meals", "showers", "laundry"]
 		},
 		{
 			"name": "The Beacon",
 			"address": "138 East Cordova Street, Vancouver",
+			"lat": 49.2820469,
+			"lng": -123.1009166,
 			"phone": "604-646-6846",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":60, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Male",
-			"intakeInfo": "24hr",
-			"accessibility": ["wheel chairs"]
+			"intakeInfo": "8am to 10pm",    //10:30pm curfew
+			"accessibility": ["wheel chairs"],
+			"facilities": []
 		},
 		{
 			"name": "Belkin House - Men's Shelter",
 			"address": "555 Homer Street, Vancouver",
+			"lat": 49.2824264,
+			"lng": -123.1129496,
 			"phone": "604-694-6636",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":0, "Male adults":54, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Male",
-			"intakeInfo": "24hr",
-			"accessibility": []
+			"intakeInfo": "24hr",     //11pm curfew
+			"accessibility": ["wheel chairs"],
+			"facilities": ["meals"]
 		},
 		{
 			"name": "Cyrus Centre Abbotsford",
 			"address": "2616 Ware Street, Abbotsford",
+			"lat": 49.049326,
+			"lng": -122.3042206,
 			"phone": "604-859-5773",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
 				"All gender youth": 2, "Male youth":1, "Female youth":0},
 			"ageRange": "12-18",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["meals", "showers", "laundry"]
 		},
 		{
 			"name": "Cyrus Centre Chilliwack",
 			"address": "45845 Wellington Avenue, Chilliwack",
+			"lat": 49.172462,
+			"lng": -121.956017,
 			"phone": "604-795-5773",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":1},
 			"ageRange": "12-18",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": ["wheel chairs"]
+			"accessibility": ["wheel chairs"],
+			"facilities": ["meals", "showers", "laundry"]
 		},
 		{
 			"name": "North Shore Youth Safe House",
 			"address": "address confidential",
+			"lat": 49.327020,
+			"lng": -123.073224,
 			"phone": "604-924-8005",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":4, "Male adults":0, "Female adults":0,
 				"All gender youth": 1, "Male youth":0, "Female youth":0},
 			"ageRange": "14-18",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["clothing"]
 		},
 		{
 			"name": "All Nations Youth Safe House - Kla-how-eya",
 			"address": "address confidential",
+			"lat": 49.183250,
+			"lng": -122.850096,
 			"phone": "604-584-2625",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":6, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "16-18",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": ["wheel chairs"]
+			"accessibility": ["wheel chairs"],
+			"facilities": ["meals"]
 		},
 		{
 			"name": "Aboriginal Youth Safehouse (ASH)",
-			"address": "address confidential",
+			"address": "1618 East Hastings Street, Vancouver",
+			"lat": 49.2810415,
+			"lng": -123.0719163,
 			"phone": "604-254-5147",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "16-18",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["meals", "clothing", "internet", "shower"]
 		},
 		{
-			"name": "Covenant House - Male Youth",
+			"name": "Covenant House",
 			"address": "326 West Pender Street, Vancouver",
+			"lat": 49.282175,
+			"lng": -123.1115649,
 			"phone": "604-647-4480; Toll-free: 1-877-685-7474",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":54, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "16-24",
-			"gender": "Male Youth",
+			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": ["wheel chairs"]
-		},
-		{
-			"name": "Covenant House - Female Youth",
-			"address": "575 Drake Street, Vancouver",
-			"phone": "604-685-7474; Toll-free: 1-877-685-7474",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
-				"All gender youth": 0, "Male youth":0, "Female youth":6},
-			"ageRange": "16-24",
-			"gender": "Female Youth",
-			"intakeInfo": "24hr",
-			"accessibility": ["wheel chairs"]
+			"accessibility": ["wheel chairs"],
+			"facilities": ["meals", "clothing"]
 		},
 		{
 			"name": "FSGV Safe House (Directions)",
-			"address": "address confidential",
+			"address": "1138 Burrard Street, Vancouver",
+			"lat": 49.2797306,
+			"lng": -123.1282078,
 			"phone": "604-877-1234",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
+			"bed": {"All gender adults":9, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":2, "Female youth":0},
 			"ageRange": "16-18",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["meals"]
 		},
 		{
 			"name": "Marc's Place",
 			"address": "address confidential",
+			"lat": 49.248808,
+			"lng": -123.121400,
 			"phone": "Day: 604-660-9376; Night: 604-660-4927",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
-				"All gender youth": 1, "Male youth":0, "Female youth":0},
+				"All gender youth": 3, "Male youth":0, "Female youth":0},
 			"ageRange": "13-15",
 			"gender": "All",
 			"intakeInfo": "24hr",
-			"accessibility": []
+			"accessibility": [],
+			"facilities": ["meals"]
 		},
 		{
 			"name": "Brigadier Arthur Cartmell House",
 			"address": "45746 Yale Road, Chilliwack",
+			"lat": 49.1600307,
+			"lng": -121.958183,
 			"phone": "604-792-4486",
 			"bed": {"All gender adults":30, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -454,6 +539,8 @@
 		{
 			"name": "Parkway Shelter",
 			"address": "10667 135A Street, Surrey",
+			"lat": 49.1964258,
+			"lng": -122.8473055,
 			"phone": "778-888-9359",
 			"bed": {"All gender adults":40, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -465,6 +552,8 @@
 		{
 			"name": "Surrey Urban Mission Temporary Shelter",
 			"address": "10776 King George Boulevard, Surrey",
+			"lat": 49.198466,
+			"lng": -122.84495,
 			"phone": "604-581-5172",
 			"bed": {"All gender adults":30, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -476,6 +565,8 @@
 		{
 			"name": "Aboriginal Shelter",
 			"address": "201 Central Street, Vancouver",
+			"lat": 49.2715493,
+			"lng": -123.0993471,
 			"phone": "604-682-5556",
 			"bed": {"All gender adults":100, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -485,19 +576,10 @@
 			"accessibility": ["wheel chairs", "pets", "shopping carts"]
 		},
 		{
-			"name": "Brigadier Arthur Cartmell House",
-			"address": "45746 Yale Road, Chilliwack",
-			"phone": "604-792-4486",
-			"bed": {"All gender adults":30, "Male adults":0, "Female adults":0,
-				"All gender youth": 0, "Male youth":0, "Female youth":0},
-			"ageRange": "19+",
-			"gender": "All",
-			"intakeInfo": "Line up: 9pm-7am",
-			"accessibility": []
-		},
-		{
 			"name": "Catholic Charities Men's Hostel",
 			"address": "828 Cambie Street, Vancouver",
+			"lat": 49.2778698,
+			"lng": -123.1153,
 			"phone": "604-443-3292",
 			"bed": {"All gender adults":102, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -509,6 +591,8 @@
 		{
 			"name": "The Crosswalk",
 			"address": "136 East Cordova Street, Vancouver",
+			"lat": 49.2822092,
+			"lng": -123.1010393,
 			"phone": "604-646-6875",
 			"bed": {"All gender adults":35, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -520,6 +604,8 @@
 		{
 			"name": "New Fountain Shelter",
 			"address": "51B West Cordova Street, Vancouver",
+			"lat": 49.282853,
+			"lng": -123.1055642,
 			"phone": "604-331-1246",
 			"bed": {"All gender adults":55, "Male adults":0, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
@@ -531,6 +617,8 @@
 		{
 			"name": "Temporary shelter - First Baptist",
 			"address": "969 Burrard Street, Vancouver",
+			"lat": 49.281614,
+			"lng": -123.126053,
 			"phone": "604-683-8441; after-hours: ext. 241",
 			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
 				"All gender youth": 30, "Male youth":0, "Female youth":0},
@@ -542,24 +630,30 @@
 		{
 			"name": "UGM Emergency Shelter for Men",
 			"address": "601 East Hastings Street, Vancouver",
+			"lat": 49.2814298,
+			"lng": -123.0911838,
 			"phone": "604-253-3323 ext. 305",
 			"bed": {"All gender adults":0, "Male adults":72, "Female adults":0,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
-			"gender": "Male Adults",
+			"gender": "Male",
 			"intakeInfo": "Intake at 5:00PM; opens at 9:00PM. No intake after 2:00AM",
-			"accessibility": ["wheel chairs"]
+			"accessibility": ["wheel chairs"],
+			"facilities": ["showers", "laundry"]
 		},
 		{
 			"name": "Women's Emergency Drop-in Night Shelter",
 			"address": "412 East Cordova Street, Vancouver",
+			"lat": 49.2820975,
+			"lng": -123.0950018,
 			"phone": "604-715-8480",
-			"bed": {"All gender adults":0, "Male adults":72, "Female adults":50,
+			"bed": {"All gender adults":0, "Male adults":0, "Female adults":50,
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
-			"gender": "Female Adults",
+			"gender": "Female",
 			"intakeInfo": "6:00PM to 9:00AM Weekdays; 24 hrs Weekends",
-			"accessibility": ["wheel chairs"]
+			"accessibility": ["wheel chairs"],
+			"facilities": ["showers", "laundry", "meals"]
 		}
 	]
 }

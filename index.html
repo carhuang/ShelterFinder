@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shelter Finder</title>
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mdb.min.css">
+
+</head>
+<body>
+<div class="container-fluid" id="body">
+    <!-- HEADER -->
+    <div class="row">
+        <h1 class="h1-responsive">Shelter Finder</h1>
+    </div>
+    <div class="row">
+        <!-- MAP -->
+        <div class=".col-md-8" id="map"></div>
+
+        <!-- FILTER FORM -->
+        <div class=".col-md-4" id="filter">
+            <form id="form">
+                <div class="form-group">
+                    <label for="age">Age: </label>
+                    <input type="number" id="age" name="age" min="1" max="100">
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="checkbox" id="pet">
+                    <label for="pet">pet friendly</label>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="wheelchair">
+                    <label for="wheelchair">wheel-chair friendly</label>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="cart">
+                    <label for="cart">shopping carts allowed</label>
+                </div>
+            </form>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <script>
+        var map;
+        function initMap() {
+            var vancouver = {lat:49.28, lng: -123.12};
+            var mapOptions = {
+                zoom: 12,
+                center: vancouver
+            };
+            map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+            // copied from https://stackoverflow.com/questions/17382128/google-maps-api-center-map-on-clients-current-location
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    initialLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+                    map.setCenter(initialLocation);
+                });
+            }
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEwLxAyn0eSuaGlLZPn2d6DJmchHTIcps&callback=initMap">
+    </script>
+</div>
+
+
+</body>
+</html>

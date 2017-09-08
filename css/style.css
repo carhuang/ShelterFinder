@@ -1,0 +1,14 @@
+#body {
+    margin:20px 20px 20px 20px;
+}
+
+
+#map {
+    margin: 5px 5px 5px 5px;
+    height:700px ;
+    width: 70%;
+}
+
+#filter {
+    margin: 10px 10px 10px 10px;
+}
