@@ -1,2 +1,2 @@
 # ShelterFinder
-A Javascript app to help homeless people find shelters near their locations using GPS
+A Javascript app to help homeless people find nearby shelters according to their needs.
