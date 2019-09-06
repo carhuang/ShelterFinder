@@ -110,8 +110,8 @@
 			"lat": 49.3187845,
 			"lng": -123.092048,
 			"phone": "604-982-9126 ext. 0",
-			"bed": {"All gender adults":0, "Male adults":0, "Female adults":0,
-				"All gender youth": 0, "Male youth":0, "Female youth":0},  //45
+			"bed": {"All gender adults":45, "Male adults":0, "Female adults":0,
+				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "All",
 			"intakeInfo": "24hr",
@@ -137,8 +137,8 @@
 			"lat": 49.098644,
 			"lng": -122.726597,
 			"phone": "604-574-4341",
-			"bed": {"All gender adults":0, "Male adults":1, "Female adults":0,
-				"All gender youth": 0, "Male youth":0, "Female youth":0}, //10
+			"bed": {"All gender adults":10, "Male adults":0, "Female adults":0,
+				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "All",
 			"intakeInfo": "24hr",
@@ -309,7 +309,7 @@
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Single Females",
-			"intakeInfo": "24hr",     //11pm curfew
+			"intakeInfo": "24hr; 11:00 pm curfew",
 			"accessibility": ["wheel chairs"],
 			"facilities": ["meals"]
 		},
@@ -393,7 +393,7 @@
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Male",
-			"intakeInfo": "8am to 10pm",    //10:30pm curfew
+			"intakeInfo": "8am to 10pm; 10:30 pm curfew",
 			"accessibility": ["wheel chairs"],
 			"facilities": []
 		},
@@ -407,7 +407,7 @@
 				"All gender youth": 0, "Male youth":0, "Female youth":0},
 			"ageRange": "19+",
 			"gender": "Male",
-			"intakeInfo": "24hr",     //11pm curfew
+			"intakeInfo": "24hr; 11:00 pm curfew",
 			"accessibility": ["wheel chairs"],
 			"facilities": ["meals"]
 		},
